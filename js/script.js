@@ -31,7 +31,7 @@ const arrTeam = [
         profession: 'Graphic Designer',
         img: 'img/barbara-ramos-graphic-designer.jpg',
     },
-    ]
+]
 
 for (let i = 0; i < arrTeam.length; i++) {
     const card = document.createElement('div');
@@ -47,5 +47,3 @@ for (let i = 0; i < arrTeam.length; i++) {
     console.log(`${arrTeam[i].name}, ${arrTeam[i].profession}, ${arrTeam[i].img}`);
     container.appendChild(card);
 }
-
-//Creazone card, poi mettila dentro il ciclo for
