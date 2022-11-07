@@ -36,7 +36,7 @@ const arrTeam = [
 for (let i = 0; i < arrTeam.length; i++) {
     const card = document.createElement('div');
     card.innerHTML = `
-    <div class="card" style="width: 18rem;">
+    <div class="card mx-3 my-5" style="width: 18rem;">
         <img class="card-img-top" src="${arrTeam[i].img}">
         <div class="card-body">
             <h5>${arrTeam[i].name}</h5>
